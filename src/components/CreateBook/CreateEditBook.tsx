@@ -25,7 +25,7 @@ const CreateEditBook: FC<IProps> = observer(({close, submit, book}) => {
     }
 
     function imgHandler(e: ChangeEvent<HTMLInputElement>) {
-        setImg(e.target.value as any);
+        setImg(e.target.value);
     }
 
     function onSubmit(e: FormEvent<HTMLFormElement>) {

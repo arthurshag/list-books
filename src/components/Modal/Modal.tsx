@@ -4,7 +4,7 @@ import classes from "./modal.module.scss";
 interface IProps {
     onOutsideClick?: () => void
     className?: string,
-    children?: any
+    children?: React.ReactNode
 }
 
 const Modal: FC<IProps> = ({children, onOutsideClick, className}) => {
