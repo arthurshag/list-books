@@ -1,0 +1,44 @@
+@import "src/variables";
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 250px;
+  overflow: hidden;
+}
+
+.img {
+  width: 15em;
+  height: 15em;
+}
+
+.author {
+  color: rgba(black, 0.5);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-size: 1.3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.5em;
+}
+
+
+.btns {
+  display: flex;
+  font-size: 0.8em;
+  gap: 1em;
+}
+
+
+.btn {
+  & svg {
+    width: 1em;
+    height: 1em;
+  }
+}

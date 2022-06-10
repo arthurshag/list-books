@@ -1,0 +1,11 @@
+$main-color: #fe4e1c;
+$main-color-hover: #ffffff;
+
+$container: 1450px;
+
+@mixin container() {
+  padding: 0 16px;
+  max-width: $container;
+  width: 100%;
+  margin: 0 auto;
+}

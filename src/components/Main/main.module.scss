@@ -1,0 +1,15 @@
+@import "src/variables";
+
+.container{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  @include container;
+  padding: 2em;
+
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
