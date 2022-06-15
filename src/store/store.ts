@@ -7,6 +7,7 @@ export class Store {
         isOpen: false,
         idBook: -1,
     };
+
     books = [] as IBook[];
 
     constructor() {
@@ -37,7 +38,6 @@ export class Store {
 
         this.updateLocalStorage();
     }
-
 
     updateBook(book: IBook) {
         const index = this.books.findIndex((b) => b.id === book.id);
